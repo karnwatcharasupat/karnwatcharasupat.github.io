@@ -1,4 +1,4 @@
-import React, {useState, useEffect, lazy, Suspense} from "react";
+import React, {lazy, Suspense, useEffect, useState} from "react";
 import {openSource} from "../../portfolio";
 import Contact from "../contact/Contact";
 import Loading from "../loading/Loading";
@@ -9,6 +9,7 @@ const GithubProfileCard = lazy(() =>
 );
 export default function Profile() {
   const [prof, setrepo] = useState([]);
+
   function setProfileFunction(array) {
     setrepo(array);
   }

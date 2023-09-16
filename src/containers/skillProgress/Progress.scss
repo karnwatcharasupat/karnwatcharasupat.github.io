@@ -8,6 +8,7 @@
   -webkit-border-radius: 25px;
   border-radius: 25px;
 }
+
 .meter > span {
   display: block;
   height: 100%;
@@ -19,13 +20,16 @@
   position: relative;
   overflow: hidden;
 }
+
 .skill {
   line-height: 3.5vw;
 }
+
 .skill-bars {
   font-size: 28px;
   width: 40%;
 }
+
 .skills-container {
   display: flex;
   width: 90%;
@@ -33,10 +37,12 @@
   margin: 0px auto;
   margin-top: 2rem;
 }
+
 .skills-container > * {
   flex: 1;
   margin-bottom: 30px;
 }
+
 .skills-image > img {
   margin-left: 80px;
   max-width: 90%;

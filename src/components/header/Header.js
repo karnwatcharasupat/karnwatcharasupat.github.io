@@ -4,13 +4,13 @@ import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
-  greeting,
-  workExperiences,
-  skillsSection,
-  openSource,
+  achievementSection,
   blogSection,
+  greeting,
+  openSource,
+  skillsSection,
   talkSection,
-  achievementSection
+  workExperiences
 } from "../../portfolio";
 
 function Header() {
@@ -83,4 +83,5 @@ function Header() {
     </Headroom>
   );
 }
+
 export default Header;

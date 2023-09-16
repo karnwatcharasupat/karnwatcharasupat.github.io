@@ -16,6 +16,7 @@ function timeOut() {
     }
   }, 10000);
 }
+
 var widthScreen = window.screen.width;
 
 export default function Twitter() {

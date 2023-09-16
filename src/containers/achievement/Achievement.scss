@@ -6,11 +6,13 @@
   line-height: normal;
   margin: 0px;
 }
+
 .achievement-subtitle {
   text-transform: uppercase;
   margin: 0px;
   margin-bottom: 50px;
 }
+
 .subTitle {
   color: $subTitle;
 }
@@ -21,6 +23,7 @@
     font-size: 40px;
   }
 }
+
 @media (max-width: 768px) {
   .achievement-heading {
     font-size: 30px;

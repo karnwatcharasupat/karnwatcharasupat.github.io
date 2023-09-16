@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css");
 @import "../../_globalColor";
 
 .social-media-div {
@@ -68,6 +69,10 @@
   background-color: $instagram;
 }
 
+.scholar i {
+  background-color: #4285F4;
+}
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -78,6 +83,7 @@
 .instagram i:hover,
 .stack-overflow i:hover,
 .kaggle i:hover,
+.scholar i:hover,
 .medium i:hover {
   background-color: $textColor;
 }
