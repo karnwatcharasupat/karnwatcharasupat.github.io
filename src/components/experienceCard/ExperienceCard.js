@@ -35,9 +35,9 @@ export default function ExperienceCard({cardInfo, isDark}) {
           )}
           <div className="experience-card-right">
             <h5 className="experience-text-company">{cardInfo.company}</h5>
-
+            <div className="experience-text-details">
             {cardInfo.roledate.map((roleInfo, i) => (
-              <div className="experience-text-details">
+              <div className="experience-text-role">
                 <h5
                   className={
                     isDark
@@ -62,6 +62,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
                 </div>
               </div>
             ))}
+            </div>
           </div>
         </div>
       </Fade>

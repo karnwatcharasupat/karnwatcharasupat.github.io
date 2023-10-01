@@ -53,20 +53,36 @@
   max-width: 70%;
 }
 
+.experience-text-details {
+  margin-top:1rem;
+  padding: 0;
+}
+
+.experience-text-role {
+  margin: 0;
+  padding: 0;
+}
+
 .experience-text-subHeader {
+  display: inline-table;
   color: $textColor;
   font-weight: 700;
   font-size: 19px;
-  margin: 0px;
-  padding-top: 0.8rem;
+  margin: 0;
+  padding: 0;
   line-height: normal;
+  width: 50%;
 }
 
 .experience-text-duration {
+  display: inline-table;
   color: $titleColor;
+  text-align: right;
   font-size: 19px;
-  margin: 0px;
-  padding-top: 0.5rem;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  width: 50%;
 }
 
 .experience-text-desc {
@@ -92,7 +108,7 @@
     width: 90%;
   }
   .experience-text-subHeader {
-    padding-top: 0.5rem;
+    //padding-top: 0.5rem;
     font-size: 16px;
   }
   .experience-text-company {

@@ -183,12 +183,16 @@ const workExperiences = {
       // ]
     },
     {
-      company: "Nanyang Technological University",
+      company: "Digital Signal Processing Lab @ Nanyang Technological University",
       companylogo: require("./assets/images/ntuLogo.jpg"),
       roledate: [
         {
           role: "Research Engineer",
           date: "February 2022 - August 2022"
+        },
+        {
+          role: "Research Intern",
+          date: "December 2021 - February 2022"
         }
       ]
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
@@ -199,12 +203,23 @@ const workExperiences = {
       roledate: [
         {
           role: "Software Development Intern",
-
           date: "May 2020 - July 2020"
         }
       ]
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+    },
+
+    {
+      company: "Media Technology Lab @ Nanyang Technological University",
+      companylogo: require("./assets/images/ntuLogo.jpg"),
+      roledate: [
+        {
+          role: "Research Student",
+          date: "December 2018 - December 2021"
+        }
+      ]
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
   ]
 };
 
