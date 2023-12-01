@@ -4,7 +4,7 @@ env:
   GITHUB_USERNAME: ${{ github.repository_owner }}
   REACT_APP_GITHUB_TOKEN: ${{ secrets.token }} # This is automatically set by Github Actions
   USE_GITHUB_DATA: "true"
-  MEDIUM_USERNAME: "karnwatcharasupat" # Change this to your medium username
+  MEDIUM_USERNAME: "kwatcharasupat" # Change this to your medium username
 on:
   workflow_dispatch:
   push:
