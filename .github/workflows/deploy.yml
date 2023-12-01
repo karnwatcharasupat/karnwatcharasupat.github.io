@@ -4,7 +4,6 @@ env:
   GITHUB_USERNAME: ${{ github.repository_owner }}
   REACT_APP_GITHUB_TOKEN: ${{ secrets.token }} # This is automatically set by Github Actions
   USE_GITHUB_DATA: "false"
-  #MEDIUM_USERNAME: "kwatcharasupat" # Change this to your medium username
 on:
   workflow_dispatch:
   push:
@@ -36,6 +35,5 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.5
         with:
-          GITHUB_TOKEN : ${{ secrets.token }} # This is provided by GitHub.
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: build # The folder the action should deploy.
